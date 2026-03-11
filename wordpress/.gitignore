@@ -1,0 +1,44 @@
+# WordPress Configuration (sensitive data)
+wp-config.php
+.htaccess
+
+# WordPress Uploads & Cache
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
+wp-content/backup-db/
+wp-content/upgrade/
+wp-content/updraft/
+wp-content/ai1wm-backups/
+
+# WordPress Plugins Cache
+wp-content/w3tc-config/
+wp-content/cache/
+wp-content/plugins/*/cache/
+
+# WordPress Debug & Error Logs
+debug.log
+error_log
+*.log
+
+# WordPress Core Updates
+*.zip
+*.tar.gz
+
+# Database backups
+*.sql
+*.sql.gz
+
+# OS & IDE files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*~
+*.swp
+*.swo
+.tmp

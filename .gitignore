@@ -1,6 +1,3 @@
-# WordPress source code (clone từ repo chính thức)
-wordpress/
-
 # Docker volumes & data
 db_data/
 
